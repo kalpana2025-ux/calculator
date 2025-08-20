@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import {evaluate} from "mathjs";
 function Cal1()
 {
-    const[value,setvalue]=useState('');
+    const[value,setvalue]=useState(0);
   const handleClick=(num)=>{
     if(num==='AC'){
     setvalue('');
